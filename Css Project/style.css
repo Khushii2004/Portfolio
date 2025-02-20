@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#nav{
+    width: 100%;
+    
+    display: flex;
+   padding: 40px 50px;
+    justify-content: space-between;
+}
+
+#nav-part1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#nav-part2{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+#nav h3{
+font-size: 25px;
+font-weight: normal;
+}
+
+#nav h2{
+    font-size: 27px;
+    font-weight: normal;
+}
+
+#nav h4{
+        font-size: 25px;
+        font-weight: normal;
+}
+
+#content{
+    width: 100%;
+    padding: 40px 65px;
+    margin-top: 70px;
+}
+
+#content h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+#content h1{
+    width: 100%;
+    font-size: 160px;
+    font-weight: normal;
+    line-height: 130px;
+    letter-spacing: -5px;
+    margin-top: 30px;
+    word-spacing: 10px;
+    padding: 0px 10px 0px 30px;
+}
+
+
+#case{
+padding: 40px 65px;
+margin-top: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#case h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#case h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 140px;
+    background-color: black;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 60px;
+}
+.elem{
+    width: 50%;
+   
+}
+
+.elem-img{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(250, 250, 195);
+    border-radius: 30px;
+    background-size: cover;
+    background-position:center;
+}
+
+#img1{
+    background-image: url(https://static-00.iconduck.com/assets.00/sketch-icon-2048x2048-x5wwjtwe.png);
+    
+}
+
+#img2{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/5c/d8/f55cd8f4-ef60-86a1-0645-208546933ec8/9a8e509d-ce34-409a-9828-75ef9d4dc521_ipad2_4.png/643x0w.jpg);
+    
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding:  15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.bottom h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: #303030;
+    
+}
